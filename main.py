@@ -6,7 +6,7 @@ import os
 
 @client.event
 async def on_ready():
-    print("I'm in")
+    print("Bot is online")
     print(client.user)
 
 @client.event
