@@ -28,6 +28,8 @@ async def on_message(message):
        await client.send_message(message.channel, "SAND")
      if message.content == "!invite":
        await client.send_message(message.channel, "https://discordapp.com/api/oauth2/authorize?scope=bot&client_id=535276186528645131")
+     if message.content == "!suggestion":
+       await clien.send_message(message.channel, "Feel free to add any suggestions in #suggestion or if you have any issues head on over to the github page to open an issue here: https://github.com/samuelfuller01/Sandbot/issues.")
 
 keep_alive()
 token = os.environ.get("DISCORD_BOT_SECRET")
